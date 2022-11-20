@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="./css.css">
+</head>
+<body>
+<div class="crud">
+    <div class="head">
+        <h2> clients reports</h2>
+        <P></P>
+    </div>
+    <div class="inputs">
+        <input type="text" id="childName" placeholder="Client Name">
+        <input type="date" id="childBirth" placeholder="Client date of birth ">
+        <input type="date" id="childAssessmentDate" placeholder="Assessment date">
+        <input type="text" id="childDiag" placeholder="Client diagnosis">
+        <input type="number" id="mentalAge" placeholder="child mental age">
+      <input type="file" id="childAssessment" placeholder="Assessment of your child">
+        <input type="file" id="treatmetnPlan" placeholder="Treatment plane of your child">
+        <input type="text" id="childNotes" placeholder="notes to child">
+        <input type="text" id="therapistNotes" placeholder="notes to therapist">
+  
+        <!---  <div class="price">
+            <input type="number" onkeyup="getTotal()" id="price" placeholder="price">
+            <input type="number"  onkeyup="getTotal()" id="taxes" placeholder="taxes">
+            <input type="number"  onkeyup="getTotal()" id="ads" placeholder="ads">
+            <input type="number" onkeyup="getTotal()" id="discount" placeholder="discount">
+            <small id="total">445344</small>
+        </div>
+        <input type="number" id="count" placeholder="count">
+        <input type="text" id="categorey" placeholder="categorey">-->
+<button type="submit"id="submit">submit</button>
+    </div>
+    <div class="outputs">
+        <div class="searchblock">
+            <input type="text" id="search" placeholder="search">
+            <div class="btnsearch">
+                <button id="searchTitle">search by title</button>
+                <button id="searchcategory"> search by category</button>
+            </div>
+        </div>
+        <div id="deleteAll"></div>
+        <table>
+            <tr>
+                <th>client Name</th>
+                <th>client date of birth</th>
+                <th>client date of assessment</th>
+                <th>client diagnosis</th>
+                <th>client mental age</th>
+                <th> child assessment </th>
+                <th>child treatment plan</th>
+                <th></th>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+            <tbody id="tbody">
+<!--                <tr>
+            </tbody>-->
+        </table>
+    </div>
+</div>
+<script src="./javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* start log in and sign up*/
+body{background: scroll;
+  direction: rtl;
+  }
+.container,.container2{
+border: solid 2px gray;
+width: 75%;
+border-radius: 2%;
+color: white;
+text-align: center;
+}
+@media(max-width:567px){
+  .container{width: max-content;
+  margin-left: 0%;}
+  .container2{width: max-content;
+  margin-left: 0%;}
+    input{ 
+      width: 100%;
+  
+}}
+
+          
+    .row-6 input{margin:10px ;}
+      @keyframes db3-1 {
+        100% {left:calc(100% - 8px)}
+      }
+      
+      @keyframes db3-2 {
+        100% {top:-0.1px}
+      }
+/*end loading*
